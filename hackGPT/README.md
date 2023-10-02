@@ -17,13 +17,17 @@ hackGPT is an intelligent Discord bot created for a hackathon project. It levera
 
 4. In any channel, type `!help` to begin using hackGPT!
 
-** If it is not online, you can: **
+**If it is not online, you can:**
 
 1. Clone this repository: https://github.com/kennythai2003/hackathon.git
 2. `cd hackGPT`.
 3. Install the following packages: `discord` and `openai`.
-4. Run the `main.py` file.
-5. Follow the steps above.
+4. Obtain your API keys.
+   - [Discord API](https://discord.com/developers/docs/intro)
+   - [OpenAI API](https://platform.openai.com/account/api-keys)
+   - Replace your personal keys in the `main.py` file.
+5. Run the `main.py` file.
+6. Follow the steps above.
 
 ## Inspiration
 
@@ -47,3 +51,12 @@ The future of hackGPT is exciting! Here are some planned improvements and featur
 **Integration**: Integrate with other platforms and services to broaden hackGPT's functionalities.
 
 Your contributions and feedback are welcome to shape the future of hackGPT!
+
+## Screenshots
+
+!help command
+<img src="src/!help.png" alt="!help image">
+!hack command
+<img src="src/!hack.png" alt="!hack image">
+!spawn command
+<img src="src/!spawn.png" alt="!spawn image">

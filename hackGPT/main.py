@@ -4,7 +4,10 @@ import openai
 intents = discord.Intents.default()
 intents.message_content = True
 
-token = 'MTE1Nzc1Mjc3NjIyNzU2MTU3NA.GmkcCz.INKc2YywxJGg0i0k8d8RB-NcAbNujkB3CU9bz0'
+ # YOUR KEY HERE
+discord_token = 'MTE1Nzc1Mjc3NjIyNzU2MTU3NA.GmkcCz.INKc2YywxJGg0i0k8d8RB-NcAbNujkB3CU9bz0' 
+
+ # YOUR KEY HERE
 openai.api_key = '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'
 
 client = discord.Client(intents=intents)
@@ -79,4 +82,4 @@ async def on_message(message):
 
         await message.channel.send(embed=embed)
 
-client.run(token)
+client.run(discord_token)
