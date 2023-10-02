@@ -57,7 +57,7 @@ async def on_message(message):
         output = response["choices"][0]["message"]["content"]
 
         embed = discord.Embed(title="🧪 YOUR WISH IS MY COMMAND 🧪",
-                              description="```" + output + "```", color=0x006400)
+                              description=output, color=0x006400)
 
         await message.channel.send(embed=embed)
         print(output)
