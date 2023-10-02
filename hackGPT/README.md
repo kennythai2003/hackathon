@@ -17,6 +17,14 @@ hackGPT is an intelligent Discord bot created for a hackathon project. It levera
 
 4. In any channel, type `!help` to begin using hackGPT!
 
+** If it is not online, you can: **
+
+1. Clone this repository: https://github.com/kennythai2003/hackathon.git
+2. `cd hackGPT`.
+3. Install the following packages: `discord` and `openai`.
+4. Run the `main.py` file.
+5. Follow the steps above.
+
 ## Inspiration
 
 hackGPT was inspired by my deep fascination with Artificial Intelligence (AI) and the desire to integrate it into my everyday life. Exploring the limitless possibilities of AI, I envisioned a Discord bot that could harness the power of OpenAI's technologies. The goal was to create a versatile assistant that not only aids in programming and creative endeavors but also serves as a testament to the incredible potential of AI when seamlessly integrated into our daily lives.
